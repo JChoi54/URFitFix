@@ -1,0 +1,164 @@
+@import "~bootstrap/scss/bootstrap.scss";
+
+.home {
+  height: 100vh;
+
+  .home-body {
+    height: 100%;
+    padding-left: 10%;
+    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+      url("../public/images/urgym.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    .home-content {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      h1 {
+        font-size: 50px;
+        color: white;
+        margin-bottom: 5%;
+      }
+
+      .open-times {
+        font-size: 16px;
+        color: white;
+        margin-bottom: 5%;
+      }
+
+      .live-occupancy {
+        font-size: 30px;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        width: 60%;
+
+        h2 {
+          margin-bottom: 0;
+        }
+
+        a {
+          text-decoration: none;
+          color: black;
+          font-size: 16px;
+          background: #ffc60b;
+          padding: 4px 4%;
+        }
+      }
+    }
+  }
+}
+
+.checkin {
+  height: 100vh;
+
+  .checkin-body {
+    height: 100%;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(201, 220, 255, 1) 100%
+    );
+
+    .checkin-content {
+      padding-top: 10%;
+      padding-left: 20px;
+      padding-right: 20px;
+      h1 {
+        font-size: 24px;
+        margin-bottom: 30px;
+      }
+
+      .checkin-list {
+        .fullname {
+          display: flex;
+          margin-bottom: 20px;
+
+          .nameactions {
+            .delete {
+              border: none;
+              margin-left: 5px;
+              font-size: 16px;
+              border-radius: 5px;
+              background-color: rgb(201, 106, 106);
+              color: white;
+              padding: 5px 10px;
+            }
+            .edit {
+              border: none;
+              margin-left: 5px;
+              font-size: 16px;
+              border-radius: 5px;
+              color: rgb(58, 58, 58);
+              padding: 5px 10px;
+            }
+          }
+          .namecontent {
+            margin-left: 20px;
+            .text {
+              border-radius: 5px;
+              border: none;
+              background: #00205b;
+              color: white;
+              padding: 5px 20px;
+            }
+          }
+        }
+      }
+
+      .checkin-form {
+        margin-top: 54px;
+        input {
+          margin-bottom: 20px;
+        }
+      }
+
+      .checkin-button {
+        background-color: #ffc60b;
+        color: #00205b;
+        border: none;
+      }
+    }
+  }
+}
+
+.trends {
+  height: 100vh;
+
+  .trends-body {
+    height: 100%;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(201, 220, 255, 1) 100%
+    );
+
+    .trends-content {
+      height: 100%;
+      .trends-info {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .current-date {
+          font-weight: bold;
+        }
+
+        span {
+          font-weight: bold;
+        }
+      }
+
+      .crowd-chart {
+        margin-top: 10%;
+      }
+    }
+  }
+}

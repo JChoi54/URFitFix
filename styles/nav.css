@@ -1,0 +1,25 @@
+.navbar-ur {
+  background-color: #00205b;
+  padding: 10px;
+}
+
+.navbar-ur .navbar-brand {
+  color: white !important;
+}
+
+.navbar-ur .nav-item {
+  margin-left: 4em;
+}
+
+.navbar-ur .nav-item .nav-link {
+  color: white;
+}
+
+.navbar-ur .nav-item .nav-link.active {
+  color: #ffc60b !important;
+}
+
+.navbar-ur .nav-item .nav-link:hover {
+  color: #ffe99f;
+}
+/*# sourceMappingURL=nav.css.map */

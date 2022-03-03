@@ -1,0 +1,22 @@
+.navbar-ur {
+  background-color: #00205b;
+  padding: 10px;
+
+  .navbar-brand {
+    color: white !important;
+  }
+  .nav-item {
+    margin-left: 4em;
+    .nav-link {
+      color: white;
+
+      &.active {
+        color: #ffc60b !important;
+      }
+
+      &:hover {
+        color: #ffe99f;
+      }
+    }
+  }
+}

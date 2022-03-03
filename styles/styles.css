@@ -1,0 +1,134 @@
+.home {
+  height: 100vh;
+}
+
+.home .home-body {
+  height: 100%;
+  padding-left: 10%;
+  background: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(0, 0, 0, 0.45)),
+      to(rgba(0, 0, 0, 0.45))
+    ),
+    url("../public/images/urgym.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    url("../public/images/urgym.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+}
+
+.home .home-body .home-content {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.home .home-body .home-content h1 {
+  font-size: 50px;
+  color: white;
+  margin-bottom: 5%;
+}
+
+.home .home-body .home-content .open-times {
+  font-size: 16px;
+  color: white;
+  margin-bottom: 5%;
+}
+
+.home .home-body .home-content .live-occupancy {
+  font-size: 30px;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 60%;
+}
+
+.home .home-body .home-content .live-occupancy h2 {
+  margin-bottom: 0;
+}
+
+.home .home-body .home-content .live-occupancy a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  background: #ffc60b;
+  padding: 4px 4%;
+}
+
+.checkin {
+  height: 100vh;
+}
+
+.checkin .checkin-body {
+  height: 100%;
+  background: white;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(white),
+    to(#c9dcff)
+  );
+  background: linear-gradient(180deg, white 0%, #c9dcff 100%);
+}
+
+.checkin .checkin-body .checkin-content {
+  padding-top: 10%;
+}
+
+.trends {
+  height: 100vh;
+}
+
+.trends .trends-body {
+  height: 100%;
+  background: white;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(white),
+    to(#c9dcff)
+  );
+  background: linear-gradient(180deg, white 0%, #c9dcff 100%);
+}
+
+.trends .trends-body .trends-content {
+  height: 100%;
+}
+
+.trends .trends-body .trends-content .trends-info {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.trends .trends-body .trends-content .trends-info span {
+  font-weight: bold;
+}
