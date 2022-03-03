@@ -3,7 +3,7 @@ import React from "react";
 import NavBar from "../components/Navbar";
 import { Chart } from "react-google-charts";
 
-function trends() {
+export default function Trends() {
   const [occupancy, setOccupancy] = useState(0);
 
   useEffect(() => {
@@ -93,5 +93,3 @@ function trends() {
     </main>
   );
 }
-
-export default trends;
